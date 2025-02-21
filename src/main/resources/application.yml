@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    default: local
+  application:
+    name: musinsa-api
+
+server:
+  port: 9090
+  shutdown: graceful
